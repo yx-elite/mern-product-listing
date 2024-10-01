@@ -43,4 +43,11 @@ To start the development server:
 npm run dev
 ```
 
-The server will start running at `http://localhost
+The server will start running at `http://localhost:5000`.
+
+## API Endpoints
+
+- **GET /api/products**: Retrieve all products
+- **POST /api/products**: Create a new product
+- **PUT /api/products/:id**: Update a product by ID
+- **DELETE /api/products/:id**: Delete a product by ID
