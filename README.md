@@ -30,9 +30,10 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add your MongoDB connection string:
+3. Create a `.env` file in the root directory and add your MongoDB connection string and port:
    ```bash
    MONGO_URI=your_mongodb_connection_string
+   PORT=5000
    ```
 
 ## Usage
@@ -43,7 +44,7 @@ To start the development server:
 npm run dev
 ```
 
-The server will start running at `http://localhost:5000`.
+The server will start running at `http://localhost:5000` by default, or on the port specified in your .env file.
 
 ## API Endpoints
 
